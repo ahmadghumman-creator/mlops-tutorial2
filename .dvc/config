@@ -1,4 +1,10 @@
 [core]
-    remote = myremote
+    remote = myremote2
 ['remote "myremote"']
     url = azure://dvccontainer/DataDVC
+['remote "mydvcremote"']
+    url = azure://dvccontainer2/DataDVC
+['remote "myremotedvc"']
+    url = azure://dvccontainer2/DataDVC
+['remote "myremote2"']
+    url = azure://dvccontainer2/DataDVC
