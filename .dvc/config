@@ -1,5 +1,5 @@
 [core]
-    remote = myremote2
+    remote = myremote3
 ['remote "myremote"']
     url = azure://dvccontainer/DataDVC
 ['remote "mydvcremote"']
@@ -7,4 +7,7 @@
 ['remote "myremotedvc"']
     url = azure://dvccontainer2/DataDVC
 ['remote "myremote2"']
+    url = azure://dvccontainer2/DataDVC
+    account_name = "'datalakedemodvc'"
+['remote "myremote3"']
     url = azure://dvccontainer2/DataDVC
